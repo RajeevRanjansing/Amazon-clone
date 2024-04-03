@@ -98,3 +98,102 @@ span{
     font-size: 30px;
 }
 
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight:700;
+}
+
+.panel{
+    height:40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-opt{
+    width:70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.fig-section{
+    background-image: url("hero_image.jpg");
+    height:300px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.fig-msg{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+}
+
+.fig-msg a{
+    color:#007185;
+}
+
+.box{
+    height: 300px;
+    width:23%;
+    border:2px solid black;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top: 15px;
+}
+
+.item-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    font-size: 20px;
+}
+
+.box-img1{
+    background-image:url("box1_image.jpg") ;
+    background-size: cover; 
+    height:200px;
+}
+
+.box-contain{
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+}
+
+.box-contain a{
+    color:#007185;
+    
+}
+
+.box-img2{
+    background-image:url("box2_image.jpg") ;
+    background-size: cover; 
+    height:200px;
+}
+.box-img3{
+    background-image:url("box3_image.jpg") ;
+    background-size: cover; 
+    height:200px;
+}
